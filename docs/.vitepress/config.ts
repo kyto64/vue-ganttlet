@@ -3,12 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'en-US',
-  title: 'Vue-Ganttastic',
+  title: 'Vue-Ganttlet',
   description: 'Simple and customizable Gantt chart component for Vue 3.',
-  base: '/vue-ganttastic/',
-  head: [['link', { rel: 'icon', href: 'https://user-images.githubusercontent.com/28678851/148047714-301f07df-4101-48b8-9e47-1f272b290e80.png' }]],
+  base: '/vue-ganttlet/',
+  head: [['link', { rel: 'icon', href: 'https://avatars.githubusercontent.com/u/106790619' }]],
   themeConfig: {
-    logo: 'https://user-images.githubusercontent.com/28678851/148047714-301f07df-4101-48b8-9e47-1f272b290e80.png',
+    logo: 'https://avatars.githubusercontent.com/u/106790619',
     nav: [
       { text: 'Home', link: '/' },
     ],
@@ -26,7 +26,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/zunnzunn/vue-ganttastic' }
+      { icon: 'github', link: 'https://github.com/kyto64/vue-ganttlet' }
     ]
   }
 })

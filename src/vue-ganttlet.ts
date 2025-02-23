@@ -27,7 +27,7 @@ export function extendDayjs() {
 export type { ColorScheme, GanttBarObject }
 export { GGanttChart, GGanttRow }
 
-export const ganttastic: Plugin = {
+export const ganttlet: Plugin = {
   install(app, options?) {
     extendDayjs()
     app.component("GGanttChart", GGanttChart)
@@ -35,4 +35,4 @@ export const ganttastic: Plugin = {
   }
 }
 
-export default ganttastic
+export default ganttlet

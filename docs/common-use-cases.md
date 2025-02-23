@@ -1,9 +1,9 @@
 # Common use cases
- The following section provides a non-exhausting list of common use cases and special features of Vue Ganttastic with corresponding code snippets.
+ The following section provides a non-exhausting list of common use cases and special features of Vue Ganttlet with corresponding code snippets.
 
 ## Adding new bars
 For each row of the chart, you will render a `g-gantt-row` component, which accepts a `bars` prop, which is an array of bar objects. Since the prop is reactive, all you need to do to add a new bar is to push a new bar-object into that array. Just make sure that the new bar-object has a nested `ganttBarConfig` object with a unique `id`, and don't forget to specify the property values for the start and end date of the bar (the properties' names must be the ones you passed to the `bar-start` and `bar-end` props of `g-gantt-chart`):
-```vue 
+```vue
 <template>
   <g-gantt-chart
     chart-start="2021-07-11 12:00"
@@ -48,7 +48,7 @@ For further configuration, you can add some optional properties to the nested `g
 
 | Property name | Type    | Description           |
 |---------------|---------|-----------------------|
-| `id`          | `string` | A unique string identifier for the bar.  (**mandatory**) 
+| `id`          | `string` | A unique string identifier for the bar.  (**mandatory**)
 | `label`       | `string?`  | Text displayed on the bar.
 | `html`        | `string?`  | Optional HTML Code that will be rendered after the label (e.g. for tags). Please sanitize user input to avoid cross site scripting, if applicable.
 | `hasHandles`  | `boolean?`  | Used to toggle handles on the left and right side of the bar that can be dragged to change the width of the bar. |
@@ -57,11 +57,11 @@ For further configuration, you can add some optional properties to the nested `g
 | `style`       | `CSSStyleSheet?`  | CSS-based styling for your bar (e.g `background`, `fontSize`, `borderRadius` etc.).
 
 ## Extending the width of a bar
-Simply add `hasHandles: true` to the `ganttBarConfig` to make the bar extendable by dragging the handles on its left or right side.  
+Simply add `hasHandles: true` to the `ganttBarConfig` to make the bar extendable by dragging the handles on its left or right side.
 
 ## Push bars when dragging
 By default, bars can overlap with other bars while being dragged. If you would like to prevent this and have the bars "push" one another while dragging, use the `push-on-overlap` prop:
-```vue 
+```vue
   <g-gantt-chart
     ...
     push-on-overlap
@@ -99,7 +99,7 @@ const onMousedownBar = (bar: GanttBarObject, e: MouseEvent, datetime?: string) =
 ...
 </script>
 ```
-## Drag and drop  
+## Drag and drop
 The `g-gantt-row` component comes with a special `drop` event, that you can use to implement custom drag-and-drop behavior. The event data also includes the `datetime` position on which the drop occured.
 ```vue
 <g-gantt-chart
@@ -125,8 +125,7 @@ const onDrop = (e: MouseEvent, datetime?: string) => {
 If the time-range (`chart-start` to `chart-end`) of your chart is very large, the displayed time units in the time axis might be too dense if the chart is not wide enough. You might want to specify the precision of the time axis accordingly. Use the `precision` prop of `g-gantt-chart` for this. Possible values are `hour`, `day`, `week` and `month`.
 
 ## Chart themes
-Vue Ganttastic ships with several pre-made color schemes that you may specify using the `color-scheme` prop of `g-gantt-chart`. [List of available color-schemes](https://infectoone.github.io/vue-ganttastic/GGanttChart.html#color-schemes)
+Vue Ganttlet ships with several pre-made color schemes that you may specify using the `color-scheme` prop of `g-gantt-chart`. [List of available color-schemes](https://infectoone.github.io/vue-ganttastic/GGanttChart.html#color-schemes)
 
 ## Locale
-Since Vue Ganttastic uses Day.js for all datetime manipulations, you can change the locale of Vue Ganttastic by [changing the global locale of Day.js](https://day.js.org/docs/en/i18n/changing-locale). You will usually do this in your `src/main.js` before you initialize the Ganttastic plugin.
-
+Since Vue Ganttlet uses Day.js for all datetime manipulations, you can change the locale of Vue Ganttlet by [changing the global locale of Day.js](https://day.js.org/docs/en/i18n/changing-locale). You will usually do this in your `src/main.js` before you initialize the Ganttlet plugin.

@@ -1,17 +1,8 @@
-# Vue Ganttastic
+# Vue Ganttlet
 
-<div style="display: flex; flex-direction: column; align-items:center;">
-<img
-    src="https://user-images.githubusercontent.com/28678851/148047714-301f07df-4101-48b8-9e47-1f272b290e80.png" 
-    style="margin: 10px;" height="150"
-    alt="Vue Ganttastic logo"
-/>
+## Original repository
 
-<b>Vue Ganttastic</b> is a simple, interactive and highly customizable Gantt chart component for Vue 3.
-
-![image](https://user-images.githubusercontent.com/28678851/148191571-76bd8d61-4583-4538-8c59-cc2915494890.png)
-
-</div>
+This repository is a fork of the original repository [zunnzunn/vue-ganttastic](https://github.com/zunnzunn/vue-ganttastic)
 
 ## Features
 
@@ -21,30 +12,24 @@
 - **Reactivity / Responsiveness** (_when changes occur, bars are repositioned accordingly_)
 - **Customization options** (_chart/bar styling, slots, event handlers etc._)
 
-Using Vue 2? Check out [Vue-Ganttastic v1](https://github.com/zunnzunn/vue-ganttastic/tree/vue-ganttastic-v1).
-
-## Guide and Docs
-
-For further guides and references, check out the [official docs](https://zunnzunn.github.io/vue-ganttastic/getting-started.html).
-
 ## Quickstart
 
 Install using
 
 ```
-npm install @infectoone/vue-ganttastic
+npm install @kyto64/vue-ganttlet
 ```
 
-Then, initalize the plugin in the starting point of your app (most likely src/main.js):
+Then, initialize the plugin in the starting point of your app (most likely src/main.js):
 
 ```js
 import { createApp } from "vue"
 import App from "./App.vue"
 ...
-import ganttastic from '@infectoone/vue-ganttastic'
+import ganttlet from '@kyto64/vue-ganttlet'
 ...
 createApp(App)
-  .use(ganttastic)
+  .use(ganttlet)
   .mount('#app')
 ```
 
@@ -124,22 +109,8 @@ npm install <name_of_the_package>.tgz
 
 ## About
 
-**License** [MIT](https://choosealicense.com/licenses/mit/)  
-**Author**: Marko Žunić, BSc  
-[GitHub Repository](https://github.com/zunnzunn/vue-ganttastic)
+**License** [MIT](https://choosealicense.com/licenses/mit/)
 
-## Support the project!
-
-In case you found the library useful, a little tip would be much appreciated!
-
-<form action="https://www.paypal.com/donate" method="post" target="_top">
-<input type="hidden" name="hosted_button_id" value="M63C8DAMV5YDJ" />
-<input type="image" src="https://pics.paypal.com/00/s/MTdhMWZmNTUtOWQ1Yi00YmRjLWJjMjgtY2Y0NTNhODM0OTJl/file.PNG" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" style="max-width:200px"/>
-<img alt="" border="0" src="https://www.paypal.com/en_AT/i/scr/pixel.gif" width="1" height="1" />
-</form>
-
-BTC address:  
-![image](https://user-images.githubusercontent.com/28678851/233090745-a0a6d8a4-6df6-4b82-ac0c-90e69551786e.png)
 
 ## Screenshots
 

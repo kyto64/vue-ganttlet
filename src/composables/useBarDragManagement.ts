@@ -78,7 +78,7 @@ export default function useBarDragManagement() {
           break
         default:
           console.warn(
-            "Vue-Ganttastic: One bar is inside of the other one! This should never occur while push-on-overlap is active!"
+            "Vue-Ganttlet: One bar is inside of the other one! This should never occur while push-on-overlap is active!"
           )
           return
       }

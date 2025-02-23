@@ -1,5 +1,5 @@
 {
-  "name": "@infectoone/vue-ganttastic",
+  "name": "@kyto64/vue-ganttlet",
   "version": "2.3.2",
   "description": "A simple and customizable Gantt chart component for Vue.js",
   "author": "Marko Zunic (@zunnzunn)",
@@ -18,17 +18,17 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./lib_types/vue-ganttastic.d.ts",
-      "import": "./lib/vue-ganttastic.js",
-      "require": "./lib/vue-ganttastic.umd.cjs"
+      "types": "./lib_types/vue-ganttlet.d.ts",
+      "import": "./lib/vue-ganttlet.js",
+      "require": "./lib/vue-ganttlet.umd.cjs"
     }
   },
-  "main": "./lib/vue-ganttastic.umd.cjs",
-  "types": "./lib_types/vue-ganttastic.d.ts",
+  "main": "./lib/vue-ganttlet.umd.cjs",
+  "types": "./lib_types/vue-ganttlet.d.ts",
   "files": [
     "lib_types",
-    "lib/vue-ganttastic.js",
-    "lib/vue-ganttastic.umd.cjs"
+    "lib/vue-ganttlet.js",
+    "lib/vue-ganttlet.umd.cjs"
   ],
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
@@ -55,7 +55,7 @@
     "dayjs": "^1.11.5",
     "vue": "^3.2.40"
   },
-  "homepage": "https://zunnzunn.github.io/vue-ganttastic/",
+  "homepage": "https://github.com/kyto64/vue-ganttlet",
   "keywords": [
     "gantt",
     "chart",
@@ -63,12 +63,12 @@
     "diagram",
     "vue",
     "vuejs",
-    "ganttastic"
+    "ganttlet"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zunnzunn/vue-ganttastic"
+    "url": "https://github.com/kyto64/vue-ganttlet"
   },
   "dependencies": {
     "@vueuse/core": "^9.1.1"

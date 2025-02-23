@@ -23,10 +23,10 @@ export default defineConfig({
       process.env.NODE_ENV === "production"
         ? {
             entry: fileURLToPath(
-              new URL("src/vue-ganttastic.ts", import.meta.url)
+              new URL("src/vue-ganttlet.ts", import.meta.url)
             ),
-            name: "VueGanttastic",
-            fileName: "vue-ganttastic"
+            name: "VueGanttlet",
+            fileName: "vue-ganttlet"
           }
         : undefined,
     outDir: process.env.NODE_ENV === "production" ? "lib" : "dist",

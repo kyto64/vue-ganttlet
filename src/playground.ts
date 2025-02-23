@@ -1,5 +1,5 @@
 import { createApp } from "vue"
 import Playground from "./GanttPlayground.vue"
-import ganttastic from "./vue-ganttastic.js"
+import ganttlet from "./vue-ganttlet.js"
 
-createApp(Playground).use(ganttastic).mount("#app")
+createApp(Playground).use(ganttlet).mount("#app")

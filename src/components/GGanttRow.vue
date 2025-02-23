@@ -65,7 +65,7 @@ provide(BAR_CONTAINER_KEY, barContainer)
 const onDrop = (e: MouseEvent) => {
   const container = barContainer.value?.getBoundingClientRect()
   if (!container) {
-    console.error("Vue-Ganttastic: failed to find bar container element for row.")
+    console.error("Vue-Ganttlet: failed to find bar container element for row.")
     return
   }
   const xPos = e.clientX - container.left

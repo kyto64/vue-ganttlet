@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: Vue-Ganttastic
+  name: Vue-Ganttlet
   text: Gantt chart component for Vue
-  tagline: A simple, interactive and highly customizable Gantt chart component for Vue.js 
+  tagline: A simple, interactive and highly customizable Gantt chart component for Vue.js
   image:
-    src: https://user-images.githubusercontent.com/28678851/148047714-301f07df-4101-48b8-9e47-1f272b290e80.png
-    alt: Vue-Ganttastic logo
+    src: https://avatars.githubusercontent.com/u/106790619
+    alt: Vue-Ganttlet logo
   actions:
     - theme: brand
       text: Get started
@@ -25,4 +25,3 @@ features:
   - title:  Customizable
     details: Style the chart and each individual bar to your own liking!
 ---
-

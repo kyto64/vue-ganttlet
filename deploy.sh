@@ -7,6 +7,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:InfectoOne/vue-ganttastic.git master:gh-pages
+git push -f git@github.com:kyto64/vue-ganttlet.git master:gh-pages
 
 cd -

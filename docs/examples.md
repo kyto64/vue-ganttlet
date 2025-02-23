@@ -1,7 +1,7 @@
 
 # Live Demos
 
-## Simple hour chart  
+## Simple hour chart
 - `precision`: `hour`
 <g-gantt-chart chart-start="01.01.2022 12:00" chart-end="02.01.2022 12:00" precision="hour" grid width="100%" bar-start="beginDate" bar-end="endDate" date-format="DD.MM.YYYY HH:mm">
 <g-gantt-row label="My row 1" :bars="hourBarList1" highlight-on-hover/>
@@ -13,7 +13,7 @@
 
 
 
-## Day chart with dark theme  
+## Day chart with dark theme
 - `precision`: `day`
 - `row-height` : `70`
 - `no-overlap`
@@ -30,7 +30,7 @@ Used slots:
 </g-gantt-row>
 <g-gantt-row label="My row 2" :bars="[]" highlight-on-hover>
 <template #label>
-<img src='https://user-images.githubusercontent.com/28678851/148047714-301f07df-4101-48b8-9e47-1f272b290e80.png' height="30" width="30" style="padding-right:10px"/>
+<img src='https://avatars.githubusercontent.com/u/106790619' height="30" width="30" style="padding-right:10px"/>
 Label with image
 </template>
 </g-gantt-row>
@@ -100,7 +100,7 @@ const dayBarList1 = ref([
   {
     beginDate: "01.11.2022 09:00",
     endDate: "02.11.2022 08:00",
-    imgSrc: "https://user-images.githubusercontent.com/28678851/148047714-301f07df-4101-48b8-9e47-1f272b290e80.png",
+    imgSrc: "https://avatars.githubusercontent.com/u/106790619",
     ganttBarConfig: {
       id: "x21987322",
       label: "I have an image",

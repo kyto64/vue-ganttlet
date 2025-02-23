@@ -2,10 +2,10 @@
 
 ## Install
 
-You can add Vue Ganttastic to your project using <kbd>npm</kbd>:
+You can add Vue Ganttlet to your project using <kbd>npm</kbd>:
 
 ```
-npm install @infectoone/vue-ganttastic
+npm install @kyto64/vue-ganttlet
 ```
 
 Then, initalize the plugin in the starting point of your app (most likely `src/main.js`):
@@ -14,10 +14,10 @@ Then, initalize the plugin in the starting point of your app (most likely `src/m
 import { createApp } from "vue"
 import App from "./App.vue"
 ...
-import ganttastic from '@infectoone/vue-ganttastic'
+import ganttlet from '@kyto64/vue-ganttlet'
 ...
 createApp(App)
-  .use(ganttastic)
+  .use(ganttlet)
   .mount('#app')
 ```
 
@@ -73,7 +73,7 @@ const row2BarList = ref([
 </script>
 ```
 
-The result shoud look like this:  
+The result should look like this:
 <g-gantt-chart chart-start="2021-07-12 12:00" chart-end="2021-07-14 12:00" precision="hour" width="100%" bar-start="myBeginDate" bar-end="myEndDate"> <g-gantt-row label="My row 1" :bars="row1BarList"/>
 <g-gantt-row label="My row 2" :bars="row2BarList"/>
 </g-gantt-chart>
@@ -100,7 +100,7 @@ const row2BarList = ref([
       id: "another-unique-id-2",
       hasHandles: true,
       label: "Hey, look at me",
-      style: {     
+      style: {
         // arbitrary CSS styling for your bar
         background: "#e09b69",
         borderRadius: "20px",

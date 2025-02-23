@@ -1,5 +1,5 @@
 # API: GGanttChart
-The main component of Vue Ganttastic. Represents an entire chart and is meant to have at least one `g-gantt-row` child component.
+The main component of Vue Ganttlet. Represents an entire chart and is meant to have at least one `g-gantt-row` child component.
 ## Props
 | Prop        | Type    | Default | Description                  |
 |-------------|---------|---------|------------------------------|
@@ -49,7 +49,7 @@ The main component of Vue Ganttastic. Represents an entire chart and is meant to
 | `label-column-title`        |  | Slot for the title of the extra column to the left where the row labels are shown if the prop `label-column-title` is set. |
 | `label-column-row`       | `{ label: string } ` | Slot for the label of a row if `label-column-title` is set.  |
 
-## Color Schemes  
+## Color Schemes
 
 List of pre-defined color schemes:
 - `default`
