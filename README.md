@@ -110,12 +110,7 @@ npm install <name_of_the_package>.tgz
 ## About
 
 **License** [MIT](https://choosealicense.com/licenses/mit/)
-
-
-## Screenshots
-
-![image](https://user-images.githubusercontent.com/28678851/148191571-76bd8d61-4583-4538-8c59-cc2915494890.png)
-
-![image](https://user-images.githubusercontent.com/28678851/148191529-b50c0d17-bcc1-4a78-9d2c-ff2a36b03f52.png)
-
-![image](https://user-images.githubusercontent.com/28678851/148191757-a2520dce-aeed-43df-87b2-3a64e225f9e7.png)
+**Author**: kyto64
+[GitHub Repository](https://github.com/kyto64/vue-ganttlet)
+**Original Author**: Marko Žunić, BSc
+[GitHub Repository](https://github.com/zunnzunn/vue-ganttastic)
