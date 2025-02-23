@@ -1,6 +1,6 @@
 {
   "name": "@kyto64/vue-ganttlet",
-  "version": "2.3.2",
+  "version": "1.0.0",
   "description": "A simple and customizable Gantt chart component for Vue.js",
   "author": "Marko Zunic (@zunnzunn)",
   "scripts": {
